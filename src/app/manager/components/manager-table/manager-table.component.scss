@@ -1,0 +1,39 @@
+.manager-table {
+    display: block;
+    width: 100%;
+    height: auto;
+    &__container {
+        height: auto;
+        width: 100%;
+
+        tr.mat-row {
+            border-bottom: none;
+        }
+
+        tr.mat-row:nth-child(odd) {
+            background: #f5f5f5;
+        }
+
+        tr.mat-row:nth-child(even) {
+            background: #dddddd;
+        }
+
+        tr.mat-header-row {
+            box-shadow: 1px 0 0 10px #00000015;
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+    &__status {
+        font-weight: bold;
+        text-transform: uppercase;
+        &--active {
+            color: green;
+        }
+
+        &--disabled {
+            color: red;
+        }
+    }
+}

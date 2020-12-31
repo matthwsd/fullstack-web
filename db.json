@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 1
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 2
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 3
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 4
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 5
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 6
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 7
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 8
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 9
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 10
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 11
+    },
+    {
+      "email": "marco.alberto@tvglobo.com.br",
+      "created_at": "2020-12-31T00:00:00",
+      "updated_at": null,
+      "rules": 2,
+      "status": true,
+      "user": "MALBERTO",
+      "id": 12
+    }
+  ]
+}
