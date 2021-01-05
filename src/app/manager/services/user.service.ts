@@ -14,10 +14,10 @@ export class UsersService {
     }
 
     public getUsers(page: number = 1, perPage: number = 10) {
-        return this.http.get(`${this.config.apiurl}users?_page=${page}&_limit=${perPage}`);
+        return this.http.get(`${this.config.baseurl}users?_page=${page}&_limit=${perPage}`);
     }
 
     public createUser(user: IUser) {
-        return this.http.post(`${this.config.apiurl}users`, user);
+        return this.http.post(`${this.config.baseurl}users`, user);
     }
 }

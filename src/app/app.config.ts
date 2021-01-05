@@ -5,5 +5,5 @@ import { Injectable } from "@angular/core";
 })
 export class Config {
 
-    public readonly apiurl = "http://localhost:3000/"
+    public readonly baseurl = "http://localhost:3000/"
 }

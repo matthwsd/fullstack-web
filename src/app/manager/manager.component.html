@@ -1,13 +1,53 @@
 <mat-sidenav-container>
-    <mat-sidenav mode="overlay" [opened]="menuIsOpened" position="end">Aqui tem um meno</mat-sidenav>
+    <mat-sidenav mode="overlay" [opened]="menuIsOpened" position="end">
+        <div class="manage">
+            <div class="manage__side">
+                <div class="manage__side-header">
+                    <mat-icon fontSet="mdi" fontIcon="mdi-tune"></mat-icon> Filtros <button mat-raised-button
+                        (click)="closeMenu()">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                </div>
+                <div class="manage__side-title">
+                    Utilize os filtros abaixo para refinar os resultados da tabela, clique no botão APLICAR para salvar
+                    as alterações.
+                </div>
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                <mat-icon>date_range</mat-icon>TODAS AS DATAS DE INCLUSÃO
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                <mat-icon>date_range</mat-icon>TODAS AS DATAS DE ALTERAÇÃO
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                <mat-icon>hdr_weak</mat-icon>ATIVOS E INATIVOS
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+                </mat-accordion>
+
+                <button mat-stroked-button color="primary" class="manage__side-full" disabled>APLICAR</button>
+            </div>
+        </div>
+    </mat-sidenav>
     <mat-sidenav-content>
         <div class="manage">
             <div class="manage__header">
 
-                <div class="manage__header-container">
+                <div class="manage__header-container manage__header-container--left">
 
                     <button mat-flat-button color='warn'>
-                        <mat-icon>person</mat-icon>
+                        <mat-icon fontSet="mdi" fontIcon="mdi-graph-outline"></mat-icon>
                     </button>
 
                     <div class="manage__header-divisor"></div>
@@ -20,18 +60,16 @@
                         <mat-icon>person</mat-icon>
                     </button>
 
-                    <div class="manage__search">
-                        <mat-form-field>
-                            <mat-label>Pesquisar</mat-label>
-                            <input matInput placeholder="Pesquisar...">
-                        </mat-form-field>
-                    </div>
+                    <mat-form-field class="manage__search">
+                        <mat-label>Pesquisar</mat-label>
+                        <input matInput placeholder="Pesquisar...">
+                    </mat-form-field>
 
                 </div>
 
                 <div class="manage__header-container manage__header-container--right">
-                    <button mat-flat-button color='light' (click)="menuIsOpened = true">
-                        <mat-icon>sort</mat-icon>
+                    <button mat-flat-button color='light' (click)="openMenu()">
+                        <mat-icon fontSet="mdi" fontIcon="mdi-tune"></mat-icon>
                     </button>
                     <button mat-flat-button color='primary'>
                         <mat-icon>person</mat-icon>

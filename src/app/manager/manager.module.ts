@@ -13,6 +13,8 @@ import { MatPaginatorModule } from "@angular/material/paginator";
 import { ManagerTableComponent } from './components/manager-table/manager-table.component';
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatCheckboxModule } from "@angular/material/checkbox";
+import { MatExpansionModule } from "@angular/material/expansion";
+
 @NgModule({
   declarations: [ManagerComponent, ManagerTableComponent],
   imports: [
@@ -25,7 +27,8 @@ import { MatCheckboxModule } from "@angular/material/checkbox";
     MatTableModule,
     MatPaginatorModule,
     MatSidenavModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatExpansionModule
   ],
   providers: []
 })

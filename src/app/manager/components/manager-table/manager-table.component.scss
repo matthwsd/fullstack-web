@@ -2,9 +2,15 @@
     display: block;
     width: 100%;
     height: auto;
+    overflow: auto;
+    &__paginator {
+        min-width: 800px !important;
+    }
     &__container {
         height: auto;
         width: 100%;
+        min-width: 800px;
+        overflow: auto;
 
         tr.mat-row {
             border-bottom: none;

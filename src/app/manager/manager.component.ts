@@ -37,4 +37,12 @@ export class ManagerComponent implements OnInit {
       .subscribe(noop, (err) => console.log(err))
   }
 
+  openMenu() {
+    this.menuIsOpened = true;
+  }
+
+  closeMenu() {
+    this.menuIsOpened = false;
+  }
+
 }
